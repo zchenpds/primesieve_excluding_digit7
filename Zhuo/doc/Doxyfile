@@ -1,0 +1,38 @@
+PROJECT_NAME           = "primesieve"
+PROJECT_NUMBER         = 5.6.0
+INPUT                  = /home/zchenpds/software/primesieve-5.6.0/doc/mainpage.dox \
+                         /home/zchenpds/software/primesieve-5.6.0/include/primesieve.hpp \
+                         /home/zchenpds/software/primesieve-5.6.0/include/primesieve.h \
+                         /home/zchenpds/software/primesieve-5.6.0/include/primesieve/Callback.hpp \
+                         /home/zchenpds/software/primesieve-5.6.0/include/primesieve/iterator.hpp \
+                         /home/zchenpds/software/primesieve-5.6.0/include/primesieve/primesieve_error.hpp \
+                         /home/zchenpds/software/primesieve-5.6.0/include/primesieve/primesieve_iterator.h \
+                         /home/zchenpds/software/primesieve-5.6.0/examples/cpp/callback_primes.cpp \
+                         /home/zchenpds/software/primesieve-5.6.0/examples/cpp/count_primes.cpp \
+                         /home/zchenpds/software/primesieve-5.6.0/examples/cpp/primesieve_iterator.cpp \
+                         /home/zchenpds/software/primesieve-5.6.0/examples/cpp/nth_prime.cpp \
+                         /home/zchenpds/software/primesieve-5.6.0/examples/cpp/previous_prime.cpp \
+                         /home/zchenpds/software/primesieve-5.6.0/examples/cpp/store_primes_in_vector.cpp \
+                         /home/zchenpds/software/primesieve-5.6.0/examples/c/count_primes.c \
+                         /home/zchenpds/software/primesieve-5.6.0/examples/c/previous_prime.c \
+                         /home/zchenpds/software/primesieve-5.6.0/examples/c/primesieve_iterator.c \
+                         /home/zchenpds/software/primesieve-5.6.0/examples/c/nth_prime.c \
+                         /home/zchenpds/software/primesieve-5.6.0/examples/c/store_primes_in_array.c
+HTML_INDEX_NUM_ENTRIES = 3
+HTML_TIMESTAMP         = NO
+JAVADOC_AUTOBRIEF      = YES
+MULTILINE_CPP_IS_BRIEF = NO
+SHOW_NAMESPACES        = YES
+VERBATIM_HEADERS       = NO
+EXTRACT_ALL            = NO
+EXTRACT_STATIC         = YES
+FILE_PATTERNS          = *.cpp *.c *.h *.hpp
+EXCLUDE_SYMBOLS        = primesieve_generate_next_primes \
+                         primesieve_generate_previous_primes
+RECURSIVE              = NO
+EXAMPLE_PATTERNS       = *.cpp *.c
+EXAMPLE_PATH           = /home/zchenpds/software/primesieve-5.6.0/examples
+EXAMPLE_RECURSIVE      = YES
+GENERATE_LATEX         = NO
+FULL_PATH_NAMES        = NO
+HAVE_DOT               = YES
